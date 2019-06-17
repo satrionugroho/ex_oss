@@ -21,11 +21,6 @@ use Mix.Config
 #     config :logger, level: :info
 #
 
-config :ex_oss,
-  access_key_id: "LTAI7ProxTiR3oNS",
-  secret_access_key: "TVvGKS68yHthntmiR7y6vtzoMj3LZF",
-  region: "oss-ap-southeast-5",
-  bucket: "smrtcap-staging"
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
 # by uncommenting the line below and defining dev.exs, test.exs and such.
