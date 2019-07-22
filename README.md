@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/satrionugroho/ex_oss.svg?branch=master)](https://travis-ci.org/satrionugroho/ex_oss)
+
 ## Ex OSS (Object Storage Service)
+
 Minimal implementation for Alibaba Object Storage Service for elixir, can be integrated with `Arc` for better cloud file management.
 
 ## Installation
@@ -25,6 +28,7 @@ end
 ```
 
 ## Configuration
+
 To store your attachments in `Alibaba Object Storage Service`, you'll need to provide a bucket and region to your application config
 
 ```elixir
@@ -51,5 +55,6 @@ config :arc,
 5. Create new Pull Request
 
 ## License and Author
+
 Author: 2019 Satrio Nugroho
 This project is licensed under the MIT license, a copy of which can be found in the [LICENSE]("LICENSE.md") file.
